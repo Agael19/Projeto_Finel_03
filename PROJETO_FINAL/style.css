@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.navConteiner{
+    display: flex;
+    background-color: rgb(95, 19, 172);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.linksConteiner{
+    display: flex;
+    height: 100px;
+}
+
+.linksConteiner a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 35px 25px;
+    height: 30px;
+}   
+
+.linksConteiner a:hover{
+    background-color: black;
+    transition: 0.9s;
+}
+
+.introConteiner{
+    background: url(/Img_Fundos/Img_Cima_PF.avif);
+    background-size: cover;
+    height: 75vh;
+    color: #940707;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.introConteiner h1{
+    margin: 0;
+    font-size: 100px;
+}
+
+.mainConteiner{
+    background: url(/Img_Fundos/fundos_jogos_ppotno.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: -60px;
+
+}
+
+.textConteiner{
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    
+}
